@@ -13,6 +13,7 @@
 }
 
 .nav__link {
+    position:relative;
     color: #2e2e2e;
 }
 
@@ -25,4 +26,18 @@
     justify-content: center;
     align-items: center;
     color:white;
+    font-weight: 600;
+    position : absolute;
+    left: 15px;
+    bottom:15px;
+}
+
+.nav__find__notification {
+    background-color: tomato;
+    width: 7px;
+    height:7px;
+    border-radius: 5px;
+    display: flex;
+    position: absolute;
+    left :30px;
 }
